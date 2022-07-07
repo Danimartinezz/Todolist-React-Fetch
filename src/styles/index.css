@@ -3,44 +3,42 @@ body{
 }
 
 .todos-container{
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 0);
     width: 25rem;
     margin: auto;
-    border-radius: 1.5rem !important;
+  
 }
 
 .todos-container-header{
-    background-color: aquamarine;
-    border-top-left-radius: 1.5rem !important;
-    border-top-right-radius: 1.5rem !important;
+    background-color: rgb(173, 173, 173);
+
 }
 .todos-container-header span{
-    background-color: aquamarine;
+    background-color: rgb(173, 173, 173);
     padding: 10px;
-    border-top-left-radius: 1.5rem !important;
 }
 
 .todos-container-footer{
-    border-top: 1px solid blue;
+    border-top: 0.5px solid rgb(0, 0, 0);
 }
 
 .delete-button{
-    color:red;
+    color:rgba(10, 4, 4, 0.379);
     margin-left: auto;
     margin-right: 25px;
-    visibility: hidden;
+    
 }
 
 ul{
     padding: 0;
 }
 li{
-    border-top: 1px solid blue;
+    border-top: 1px solid rgb(0, 0, 2);
     padding: 1rem;
     width: 100%;
 }
 li:last-child{
-    border-top: 1px solid blue;
+    border-top: 1px solid rgb(0, 0, 2);
     padding-bottom: 0;
     width: 100%;
 }
@@ -52,5 +50,5 @@ li:hover span{
 input{
     border: none;
     width: 100%;
-    border-top-right-radius: 1.5rem !important;
+
 }
